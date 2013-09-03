@@ -4,8 +4,8 @@ import (
 	. "./neowatch"
 	"flag"
 	"fmt"
+	"os"
 	"time"
-   "os"
 )
 
 func main() {
@@ -19,8 +19,8 @@ func main() {
 	fmt.Println("neowatch 0.1.0 started")
 	fmt.Println("path:", neopath)
 
-   ch := make(chan string, 100)
-   go NodeStoreWatch(neopath, ch)
+	ch := make(chan string, 100)
+	go NodeStoreWatch(neopath, ch)
 
 	time.Sleep(time.Second * 100)
 }
