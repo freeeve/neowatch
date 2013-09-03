@@ -5,4 +5,4 @@ Playing around with golang mmio and neo4j store files. This is probably not what
 
 ### license
 
-(http://www.gnu.org/copyleft/lgpl.html)[LGPL]
+[LGPL](http://www.gnu.org/copyleft/lgpl.html)
